@@ -1,2 +1,2 @@
 # malawian-programmer
-Website, blog and others under Malawian programmer brand.
+Personal website, blog etc. All under the Malawian programmer brand.
