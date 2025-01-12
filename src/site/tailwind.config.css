@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "JetBrains Mono", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        src: url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+    }
+    @font-face {
+        font-family: "SF Display", sans-serif;
+        src: url("./assets/fonts/SF/SFCompact.woff") format("woff2");
+    }
+}

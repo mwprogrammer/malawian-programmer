@@ -3,12 +3,127 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Malawian Programmer</title>
+        <link href="index.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+            rel="stylesheet"
+        />
+        <script
+            src="https://kit.fontawesome.com/3c11efc042.js"
+            crossorigin="anonymous"
+        ></script>
+        <title>Malawian Programmer | Chisomo Chiweza.</title>
     </head>
-    <body>
-        <nav>
-            <h1>Malawian Programmer</h1>
-            <p>Articles</p>
-        </nav>
+    <body class="px-10 md:px-40 xl:px-80">
+        <div id="about" class="my-4">
+            <h1 id="about-heading" class="text-2xl md:text-4xl font-bold my-4">
+                Malawian Programmer.
+            </h1>
+            <div class="font-mono text-sm text-gray-500">
+                A blog documenting my programming and software engineering
+                journey.
+            </div>
+            <div id="about-location" class="font-mono text-xs text-gray-400">
+                <i id="globe" class="fa-solid fa-globe mr-1"></i>
+                Blantyre, Malawi, UTC +2
+            </div>
+            <div id="about-contact" class="py-2 text-xs mt-2 text-gray-500">
+                <a>
+                    <i
+                        id="email"
+                        class="fa-solid fa-envelope mr-1 p-2 border border-gray-300 rounded-lg"
+                    ></i>
+                </a>
+                <a>
+                    <i
+                        id="github"
+                        class="fa-brands fa-github mr-1 p-2 border border-gray-300 rounded-lg"
+                    ></i>
+                </a>
+                <a>
+                    <i
+                        id="linkedin"
+                        class="fa-brands fa-linkedin p-2 border border-gray-300 rounded-lg"
+                    ></i>
+                </a>
+            </div>
+        </div>
+        <div id="posts" class="">
+            <h1 id="posts-heading" class="text-3xl font-bold my-3">Articles</h1>
+            <div
+                id="posts-container"
+                class="border-l border-gray-300 pl-8 mt-6"
+            >
+                <div
+                    id="post"
+                    class="my-3 p-4 border rounded-lg border-gray-300"
+                >
+                    <div id="post-info" class="flex flex-row justify-between">
+                        <h1 class="text-xl font-bold my-1">A life update.</h1>
+                        <h3 class="font-mono text-sm text-gray-400">
+                            January 12, 2023
+                        </h3>
+                    </div>
+                    <p
+                        id="post-summary"
+                        class="font-mono text-sm text-gray-500"
+                    >
+                        It's been a while since I last wrote for my blog - it's
+                        almost a bit embarrasing to be honest. So to (sort of)
+                        explain my absence; decided to write a bit of an update
+                        post to open up the year 2025.
+                    </p>
+                </div>
+                <div
+                    id="post"
+                    class="my-3 p-4 border rounded-lg border-gray-300"
+                >
+                    <div id="post-info" class="flex flex-row justify-between">
+                        <h1 class="text-xl font-bold my-1">
+                            Transitioning from programmer to software engineer.
+                        </h1>
+                        <h3 class="font-mono text-sm text-gray-400">
+                            January 12, 2023
+                        </h3>
+                    </div>
+                    <p
+                        id="post-summary"
+                        class="font-mono text-sm text-gray-500"
+                    >
+                        Software developer, software engineer, systems
+                        developer, web developer, programmer - I get it, I get
+                        it; The terms feel like synonyms of each other but bear
+                        with me for a bit.
+                    </p>
+                </div>
+                <div
+                    id="post"
+                    class="my-3 p-4 border rounded-lg border-gray-300"
+                >
+                    <div id="post-info" class="flex flex-row justify-between">
+                        <h1 class="text-xl font-bold my-1">
+                            The best way to learn is to teach.
+                        </h1>
+                        <h3 class="font-mono text-sm text-gray-400">
+                            January 12, 2023
+                        </h3>
+                    </div>
+                    <p
+                        id="post-summary"
+                        class="font-mono text-sm text-gray-500"
+                    >
+                        As I mentioned in my previous post, a goal of mine is to
+                        be a software engineer and that includes getting
+                        comfortable with knowledge sharing. I recently signed up
+                        to give a talk. With it I am killing two birds with one
+                        stone; both deepening my knowledge in the subject and
+                        also networking with other developers in my area. Wish
+                        me luck as I prepare!
+                    </p>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
