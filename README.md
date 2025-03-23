@@ -1,2 +1,2 @@
 # malawian-programmer
-Personal website, blog etc. All under the Malawian programmer brand.
+My little corner on the internet.
