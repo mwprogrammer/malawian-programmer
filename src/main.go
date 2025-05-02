@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/mwprogrammer/malawian-programmer/src/engine"
+	"github.com/mwprogrammer/malawian-programmer/src/app"
 )
 
 func main() {
 
-	engine.StartSite("./site", 3000)
+	app.Index("./site", 3000)
 
 }

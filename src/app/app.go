@@ -1,4 +1,4 @@
-package engine
+package app
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-func StartSite(path string, port int) {
+func Index(path string, port int) {
 
 	formattedPort := fmt.Sprintf(":%d", port)	
 	server := http.FileServer(http.Dir(path))
